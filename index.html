@@ -1139,25 +1139,24 @@
         <p>To understand Iritah Shenmira Naba (Neb), you must first understand what it means to be chosen by a lineage not appointed, not trained from the outside, but recognized from within.</p>
         <p>A high priest and healer of the Dogon bloodline from the Gulmu region of Meritah (Africa), Iritah Shenmira Naba (Neb) is the son of the late Master Naba Lamoussa Morodenibig a legendary Dogon prophet who dedicated his life to educating humanity on its original spiritual principles.</p>
         <p>Born among the Tem people in Togo, he entered initiations and apprenticeships with priests and healers from boyhood, enduring the full rites of passage. After his father's passing, he stepped fully into his calling ordained within three months, carrying the mission of his ancestors to a global stage.</p>
-        <p>NABA Iritah holds explicit authority from his Dogon lineage and has been granted permission by the King of the Gulmu
-                  Kingdom to represent and protect these traditions. He is not simply a practitioner — he is a commissioned emissary,
+        <p>NABA Iritah holds explicit authority from his Dogon lineage and has been granted permission by the King of the Gulmu Kingdom to represent and protect these traditions. He is not simply a practitioner — he is a commissioned emissary,
                   accountable to elders, ancestors, and the communities whose cultural continuity depends on his stewardship.</p>
-                <p>As a world-renowned diviner utilizing the M'TAM system — an ancient science rooted in the Earth's dialogue of
+        <p>As a world-renowned diviner utilizing the M'TAM system — an ancient science rooted in the Earth's dialogue of
                   energies, solution-oriented and over 70,000 years old — Neb Naba Iritah offers readings and consultations that bridge
                   the physical, energetic, and spiritual dimensions of human life. He is a published co-author of <em>Book of
                     Purifications</em>, <em>Initiatic Tales of Hej-Ptah</em>, and <em>Philosophy Podium: A Dogon Perspective</em>, and
                   has written extensively on indigenous history and perspective. He leads annual cultural and spiritual immersion trips
                   to West Africa and retreats around the world that reconnect people across the diaspora and beyond to their traditional
                   roots.</p>
-                <p>An international speaker and lecturer fluent in French, English, and several indigenous languages, he has appeared on
+        <p>An international speaker and lecturer fluent in French, English, and several indigenous languages, he has appeared on
                   global platforms, podcasts, and conferences — consistently named among the most compelling indigenous voices in
                   conversations on spirituality, healing, and cultural preservation.</p>
-                <p>As Director of Education at Kebtah — an international organization dedicated to preserving and promoting indigenous
+        <p>As Director of Education at Kebtah — an international organization dedicated to preserving and promoting indigenous
                   culture — Neb Naba Iritah brings the same integration of ancestral depth and organizational vision to
                   institution-building that he brings to ceremony. With deep initiation in indigenous governing frameworks, he practices
                   a rare form of leadership: rooted in collectivist principles, accountable to tradition, and fully equipped to operate
                   within contemporary structures.</p>
-                <p>His defining gift is the ability to unify worlds — the invisible and the visible, the ancestors and the living, the
+        <p>His defining gift is the ability to unify worlds — the invisible and the visible, the ancestors and the living, the
                   marginalized and the powerful, the ancient and the now. Where others see contradiction, Neb Naba Iritah sees a
                   threshold. And at that threshold, transformation becomes possible.</p>
 
@@ -1487,8 +1486,10 @@
       <div class="contact-text reveal">
         <p class="section-label">Begin Your Journey</p>
         <h2 class="section-title">Connect with<br><em>Iritah Shenmira Naba (Neb)</em></h2>
-        <p>Whether you are seeking a personal divination reading, healing consultation, speaking engagement, pilgrimage opportunity, or a partnership with Kebtah we welcome your inquiry with openness and care.</p>
-        <p>Iritah Shenmira Naba (Neb) serves communities globally and operates with the full accountability of his lineage, his elders, and the living tradition he carries.</p>
+        <p>Whether you are seeking a personal divination reading, healing consultation, speaking engagement, pilgrimage
+          opportunity, or a partnership with Kebtah we welcome your inquiry with openness and care.</p>
+        <p>Iritah Shenmira Naba (Neb) serves communities globally and operates with the full accountability of his
+          lineage, his elders, and the living tradition he carries.</p>
 
         <div class="contact-channels">
           <a href="https://www.dogonwisdom.com" class="channel-item" target="_blank">
@@ -1515,18 +1516,20 @@
         </div>
       </div>
 
-      <div class="contact-form reveal">
+      <form class="contact-form reveal" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
         <div class="form-field">
           <label class="form-label">Full Name</label>
-          <input class="form-input" type="text" placeholder="Your full name">
+          <input class="form-input" type="text" name="name" placeholder="Your full name">
         </div>
         <div class="form-field">
           <label class="form-label">Email Address</label>
-          <input class="form-input" type="email" placeholder="your@email.com">
+          <input class="form-input" type="email" name="email" placeholder="your@email.com">
         </div>
         <div class="form-field">
           <label class="form-label">Nature of Inquiry</label>
-          <select class="form-select">
+          <select class="form-select" name="inquiry">
             <option value="">Select a topic</option>
             <option>Personal Divination Reading (M'TAM)</option>
             <option>Healing Consultation</option>
@@ -1540,12 +1543,12 @@
         </div>
         <div class="form-field">
           <label class="form-label">Message</label>
-          <textarea class="form-textarea" placeholder="Please share what brings you here and how we may best serve you…"></textarea>
+          <textarea class="form-textarea" name="message"
+            placeholder="Please share what brings you here and how we may best serve you…"></textarea>
         </div>
-        <button class="btn-primary" style="cursor:pointer; border:none; width:100%; font-family:'Cinzel',serif; font-size:0.75rem; letter-spacing:0.2em;">
-          Send Your Inquiry
-        </button>
-      </div>
+        <input type="submit" class="btn-primary" value="Send Your Inquiry"
+          style="cursor:pointer; border:none; width:100%; font-family:'Cinzel',serif; font-size:0.75rem; letter-spacing:0.2em;">
+      </form>
     </div>
   </div>
 </section>
